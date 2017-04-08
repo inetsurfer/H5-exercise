@@ -183,11 +183,7 @@ cursor:pointer;
     font-weight:normal;
 }
 
-#nav span {
-  float:left;
-  padding:0 16px;
-  
-}
+#nav span {float:left; padding:0 16px;}
  
  /*CSS3支持多重背景，但要注意顺序，后面的背景会覆盖前面的*/
  /*
