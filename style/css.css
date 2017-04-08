@@ -1,4 +1,4 @@
-body,ul,li,p,h1,h2,h3,h4,h5,form,input,textarea,select,strong,span{
+body,ul,li,p,h1,h2,h3,h4,h5,form,input,textarea,select,a,strong,span{
     padding: 0;
     margin: 0;
     font-family: arial;
@@ -93,7 +93,6 @@ body {background:url(../images/bg.png) repeat-x;}
     width:114px;
     height:23px;
     float:right;
-    padding:0;
     position: absolute;
     top:63px;
     right:42px;
@@ -195,14 +194,9 @@ cursor:pointer;
     }
 */
 
-#nav a:hover,#nav .active a{
-    background: url(../images/nav_active_bg.png) repeat-x 0 -28px;}
-
-#nav a:hover strong,#nav .active strong{
-    background: url(../images/nav_active_bg.png) no-repeat right -56px;}
-
-#nav a:hover span,#nav .active span{
-    background: url(../images/nav_active_bg.png) no-repeat left 0;}
+#nav a:hover,#nav .active a{background: url(../images/nav_active_bg.png) repeat-x 0 -28px;}
+#nav a:hover strong,#nav .active strong{background: url(../images/nav_active_bg.png) no-repeat right -56px;}
+#nav a:hover span,#nav .active span{background: url(../images/nav_active_bg.png) no-repeat left 0;}
 
 
 
