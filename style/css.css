@@ -178,12 +178,14 @@ cursor:pointer;
 }
 
 #nav strong {float:left;font-weight:normal;}
-
 #nav span {float:left; padding:0 16px;}
+#nav a:hover,#nav .active a{background: url(../images/nav_active_bg.png) repeat-x 0 -28px;}
+#nav a:hover strong,#nav .active strong{background: url(../images/nav_active_bg.png) no-repeat right -56px;}
+#nav a:hover span,#nav .active span{background: url(../images/nav_active_bg.png) no-repeat left 0;}
  
- /*CSS3支持多重背景，但要注意顺序，后面的背景会覆盖前面的*/
+ /*CSS3支持多重背景，可用于制作滑动门按钮效果，但要注意顺序，后面的背景会覆盖前面的*/
  /*
- #nav a:hover{
+ #nav a:hover,#nav .active a{
     float:left;
     height:28px;
     color:#fff;
@@ -194,9 +196,7 @@ cursor:pointer;
     }
 */
 
-#nav a:hover,#nav .active a{background: url(../images/nav_active_bg.png) repeat-x 0 -28px;}
-#nav a:hover strong,#nav .active strong{background: url(../images/nav_active_bg.png) no-repeat right -56px;}
-#nav a:hover span,#nav .active span{background: url(../images/nav_active_bg.png) no-repeat left 0;}
+
 
 
 
