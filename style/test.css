@@ -1,5 +1,29 @@
+div {margin:0;padding:0}
+
+
 #test1{
-    width:600px;
-    height:200px;
+    width:800px;
+    height:800px;
     background: red;
+    opacity:0.5;
+}
+
+#test2{
+    width:400px;
+    height:400px;
+    background: green;
+}
+
+#test3{
+    width:200px;
+    height:200px;
+   background: blue;
+}
+
+
+#test4{
+    width:100px;
+    height:100px;
+    background: yellow;
+    opacity: 0.5;
 }
