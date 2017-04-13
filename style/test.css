@@ -6,24 +6,44 @@ div {margin:0;padding:0}
     height:800px;
     background: red;
     opacity:0.5;
+    position:absolute;
+    top:50%;
+    left:50%;
+   margin-top:-400px;
+   margin-left:-400px;
+    
 }
 
 #test2{
     width:400px;
     height:400px;
     background: green;
+    position:absolute;
+    top:200px;
+    left:200px;
+    
 }
+    
+
 
 #test3{
     width:200px;
     height:200px;
-   background: blue;
+    background: blue;
+    position:absolute;
+    top:100px;
+    left:100px;
 }
+    
+
 
 
 #test4{
     width:100px;
     height:100px;
     background: yellow;
-    opacity: 0.5;
+   position:absolute;
+top:50px;
+    left:50px;
 }
+
