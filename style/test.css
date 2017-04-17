@@ -1,6 +1,5 @@
 div {margin:0;padding:0}
 
-
 #test1{
     width:800px;
     height:800px;
@@ -47,3 +46,10 @@ top:50px;
     left:50px;
 }
 
+
+
+.outer{border:1px solid #ccc;background: #fc9;color: #fff;margin: 10px auto;padding: 10px;zoom:1;}
+.div1{width:80px;height: 80px;background: red;float: left;}
+.div2{width: 80px;height: 80px;background: blue;float: left;}
+.div3{width: 80px;height: 80px;background: sienna;float: left;}
+.outer:after{clear:both;content:'.';display:block;width:0;height:0;visibility:hidden;}
