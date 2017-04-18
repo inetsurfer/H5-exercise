@@ -202,12 +202,12 @@ cursor:pointer;/*将鼠标指针设为手形*/
     background:url(../images/content_bg.png) no-repeat 0 top;}
 #content_bottom{
     width:1000px;
+    padding-top:10px;
     background:url(../images/content_bg.png) no-repeat -2000px bottom;}
 
 #ad{
     width:940px;
     height:300px;
-    top:10px;
     margin:0 auto;
     position: relative;
 }
@@ -258,7 +258,25 @@ cursor:pointer;/*将鼠标指针设为手形*/
     z-index:2;
     }
 
+#main {
+    width:942px;
+    padding-top:30px;
+    margin:0 auto;
+}
 
+#slide {
+    width:210px;
+    float:left;
+}
+
+#wrap {
+    width:706px;
+    float:right;
+}
+
+/*清浮动*/
+.clear { zoom:1;}
+.clear:after{content:'';clear:both;display:block;}
 
 
 
