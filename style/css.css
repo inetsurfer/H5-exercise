@@ -278,12 +278,42 @@ cursor:pointer;/*将鼠标指针设为手形*/
 .clear { zoom:1;}
 .clear:after{content:'';clear:both;display:block;}
 
+.module_menu{} /*不加括号，下面一行会神奇失效*/
+.module_menu h2{height:30px;background:url(../images/module_menu_bk.png) repeat-x;}
+.module_menu h2 strong{
+    display:block;
+    height:30px;
+    background:url(../images/module_menu_bk.png) no-repeat left -30px;}
+.module_menu h2 span{
+    display:block;
+    font-size:15px;
+    color:white;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    background:url(../images/module_menu_bk.png) no-repeat right -60px;}
 
-
-
-
-
-
-
-
-
+.list{
+    background:url(../images/list_bk.png) repeat-y -210px top;
+    
+}
+.list ul{
+    background: url(../images/list_bk.png) no-repeat 0 bottom;
+    padding:18px 8px 15px ;/*上 左右 下 空隙*/
+}
+.list li{}
+.list a {
+    display:block;
+    height:27px;
+    line-height: 27px;
+    border-bottom:1px solid white;
+    font-size:12px;
+    font-weight: bold;
+    color:#434343;
+    text-decoration: none;
+    padding-left:32px;}
+.list a:hover{
+    color:red;
+    border-bottom:1px solid red;
+    background:#fae191;
+}
