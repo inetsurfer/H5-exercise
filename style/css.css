@@ -82,7 +82,7 @@ body {background:url(../images/bg.png) repeat-x;}
 #shopping p{
     float:right;
     color:#f7f7f7;
-    font:20px Arial;
+    font:20px;
     padding:32px 10px 0 0;
     
 }
@@ -242,7 +242,7 @@ cursor:pointer;/*将鼠标指针设为手形*/
     height:32px;
     line-height: 16px;
     font-size:13px;
-    font-family: arial;
+    font-family: Arial;
     color: #ffcccc;
     z-index:3;}
 
@@ -440,6 +440,37 @@ cursor:pointer;/*将鼠标指针设为手形*/
     cursor: pointer;
 }
 .sort p{float:right;font-size:12px;color: #747474;}
-.sort strong{}
 .sort span{padding:0 5px;}
 .sort .color{color:#b20e20;}
+
+#pic_list{width:706px;overflow: hidden;}
+#pic_list h2{
+    font-size:18px;
+    color:#666;
+    height:56px;
+    line-height: 56px;
+}
+#pic_list ul{width:736px;}
+#pic_list li{float:left;height:200px;width:183px;}
+#pic_list a{
+    display:block;
+    width:154px;
+    height:114px;
+    border:1px solid #c6c6c6;
+    margin-bottom:6px;}
+#pic_list a:hover{border:1px solid #663}
+#pic_list h3{
+    font-size:15px;
+    line-height: 16px;
+    color:#666;
+}
+#pic_list p{
+    font-size:13px;
+    line-height: 16px;
+    color:#333;
+}
+#pic_list span{color:#b20e00;}
+#page {text-align:center;border-bottom:1px solid #cdcdc8;padding-bottom: 5px;}
+#page a{display:inline-block;height:20px;color:#b20e00;padding:0 6px;font-size:12px;line-height: 20px;}
+/*即使padding为0,inline-block之间仍有一个字符的空隙，是因为多个<a>标签换行产生的，放在一行上可以消除*/
+#page a:hover,#page .active{color:white;background:#b20e00;text-decoration:none;}
