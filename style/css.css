@@ -368,27 +368,29 @@ cursor:pointer;/*将鼠标指针设为手形*/
 }
 
 .join_list{
-    background:url(../images/join_list_bg.png) no-repeat 10px 0;
+    background:url(../images/join_list_bg.png) no-repeat 10px 10px;
     width:192px;
-    margin:22px auto 0px;
+    margin:20px auto 0px;
 }
+
 .join_list li{
     padding-left:62px;
-    border-top:1px slide white;
-}
+    border-top:1px solid white;
+    padding-top:5px;}
 
 .join_list a{font-size:13px;color:#434343;}
 
-.join_list .space1{height:37px;line-height: 37px;}
-.join_list .space2{height:48px;}
-.join_list .space3{height:50px;}
-.join_list .space4{height:50px;}
+.join_list .space1{height:42px;line-height: 37px;}
+.join_list .space2{height:42px;}
+.join_list .space3{height:44px;}
+.join_list .space4{height:44px;}
 
 
 #payment{
     position:relative;
     top:33px;
     left:18px;
+    
 }
 
 .sort{height:20px;}
