@@ -1,0 +1,59 @@
+li {list-style: none;} 
+div,ul,li{padding:0;margin:0;}
+
+.hrader{
+	height: 71px;
+	width: 100%;
+}
+.hder{
+	height: 71px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.hder a{
+	float: left;
+}
+.hder ul{
+	float: right;
+	line-height: 71px;
+}
+.hder ul li{
+	float: left;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.hder ul li a{
+	font-size: 15px;
+	color: #999;
+	font-weight: bold;
+}
+.hder ul li a:hover{
+	color: red;
+}
+/**头部结束***/
+
+/**导航栏开始**/
+.nav{
+	width: 100%;
+	height: 47px;
+}
+.nav .naver{
+	width: 1020px;
+	height: 47px;
+	margin: 0 auto;
+    background:#666
+}
+.nav-left{
+	width: 600px;
+	height:47px ;
+	float: left;
+}
+.nav-left ul{
+	float: left;
+}
+.nav-left ul li{
+	float: left;
+    padding-left:10px;
+}
+
+.nav-left a{line-height: 47px;}

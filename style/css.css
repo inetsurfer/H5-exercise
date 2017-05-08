@@ -446,7 +446,7 @@ cursor:pointer;/*将鼠标指针设为手形*/
 .sort .color{color:#b20e20;}
 
 #pic_list{width:706px;overflow: hidden;}
-#pic_list h2{
+#pic_list h2,#scroll_list h2{
     font-size:18px;
     color:#666;
     height:56px;
@@ -476,3 +476,33 @@ cursor:pointer;/*将鼠标指针设为手形*/
 #page a{display:inline-block;height:20px;color:#b20e00;padding:0 6px;font-size:12px;line-height: 20px;}
 /*即使padding为0,inline-block之间仍有一个字符的空隙，是因为多个<a>标签换行产生的，放在一行上可以消除*/
 #page a:hover,#page .active{color:white;background:#b20e00;text-decoration:none;}
+
+#scroll_list{
+
+}
+
+#scroll_wrap{
+    height:198px;
+    background:url(../images/scroll_list_bg.png) repeat-x 0 -198px;
+}
+#scroll_wrap_l{
+    height:198px;
+    background:url(../images/scroll_list_bg.png) no-repeat;
+}
+#scroll_wrap_r{
+    height:198px;
+    background:url(../images/scroll_list_bg.png) no-repeat right -396px;
+    position: relative;
+}
+
+.prev,.next{width:36px;height:43px;position: absolute;top:72px;}
+.prev{left:0;background: url(../images/scroll_list_bg.png) no-repeat 0 -594px;}
+.next{right:0;background: url(../images/scroll_list_bg.png) no-repeat 0 -637px;}
+
+.list_wrap{width:615px;margin:0 auto;padding-top:32px;}
+.list_wrap ul{height:150px;}
+.list_wrap li{width:205px;float:left;}
+.list_wrap a,.list_wrap p{width:145px;margin:0 auto;}
+.list_wrap a{height:100px;display:block;border: 1px solid #c6c6c6; }
+.list_wrap p{line-height:14px;padding-top:10px;font-size:12px;color:#600;text-align: center;}
+.list_wrap a:hover{border:1px solid #663}
